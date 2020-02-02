@@ -1,4 +1,4 @@
-## Gerenciador de Projetos
+# Gerenciador de Projetos
 
 Como primeiro desafio do Bootcamp GoStack da Rocketseat, tivemos que desenvolver uma API com métodos HTTPs CRUD (create, read, update, delete), para cadastrar/editar projetos.
 
@@ -6,27 +6,27 @@ O desafio foi bem simples pois já conhecia esta estrutura e o Express (bibliote
 
 Contudo, acredito que há formas de expandir um pouco mais este projeto, tornando-o utilizável como um app mobile utilizando o banco de dados MongoDB / PostGres, ou então, utilizando RealmDB para que seja possível a utilização do aplicativo de forma offline.
 
-## Instalando
+# Instalando
 
 git clone https://github.com/MatheusDev-1/Gerenciador-de-Projetos.git 
 
 cd GerenciadorProjetos && npm install
 cd GerenciadorProjetosAPI && npm install
 
-# Iniciando API
+## Iniciando API
 
 cd GerenciadorProjetosAPI && yarn dev
 
-# Iniciando Mobile
+## Iniciando Mobile
 
 cd GerenciadorProjetos && react-native run-android
 
-## O que foi ou será utilizado
+# O que foi ou será utilizado
 
 * Node JS (com bibliotecas Express, Nodemon e Axios)
 * React Native (react-native-elements)
 
-## Próximos commits
+# Próximos commits
 
 
 * Criar aplicativo simples no React Native para listar todos os projetos em uma FlatList e permitir também as ações de Criação, Edição e Deleção de projetos e/ou tarefas - 80%
