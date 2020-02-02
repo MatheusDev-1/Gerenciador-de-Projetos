@@ -1,0 +1,14 @@
+{
+  "name": "GerenciadorProjetos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./api.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "react-native-elements": "^1.2.7"
+  }
+}
