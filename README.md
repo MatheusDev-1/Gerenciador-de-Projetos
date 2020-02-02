@@ -10,16 +10,16 @@ Contudo, acredito que há formas de expandir um pouco mais este projeto, tornand
 
 git clone https://github.com/MatheusDev-1/Gerenciador-de-Projetos.git 
 
-*cd GerenciadorProjetos* && *npm install*
-*cd GerenciadorProjetosAPI* && *npm install*
+**cd GerenciadorProjetos** && **npm install**
+**cd GerenciadorProjetosAPI** && **npm install**
 
 ## Iniciando API
 
-*cd GerenciadorProjetosAPI* && *yarn dev*
+**cd GerenciadorProjetosAPI** && **yarn dev**
 
 ## Iniciando Mobile
 
-*cd GerenciadorProjetos* && *react-native run-android*
+**cd GerenciadorProjetos** && **react-native run-android**
 
 # O que foi ou será utilizado
 
