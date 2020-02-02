@@ -10,15 +10,24 @@ Contudo, acredito que há formas de expandir um pouco mais este projeto, tornand
 
 git clone https://github.com/MatheusDev-1/Gerenciador-de-Projetos.git 
 
-npm install
+cd GerenciadorProjetos && npm install
+cd GerenciadorProjetosAPI && npm install
+
+# Iniciando API
+
+cd GerenciadorProjetosAPI && yarn dev
+
+# Iniciando Mobile
+
+cd GerenciadorProjetos && react-native run-android
 
 ## O que foi ou será utilizado
 
-* Node JS (com bibliotecas Express e Nodemon)
-* React Native
+* Node JS (com bibliotecas Express, Nodemon e Axios)
+* React Native (react-native-elements)
 
 ## Próximos commits
 
-* Criar aplicativo simples no React Native para listar todos os projetos em uma FlatList e permitir também as ações de Criação, Edição e Deleção de projetos e/ou tarefas. 
-* Criar aplicação WEB, com layout semelhante ao do aplicativo mobile, para poder realizar as mesmas ações descritas acima
+
+* Criar aplicativo simples no React Native para listar todos os projetos em uma FlatList e permitir também as ações de Criação, Edição e Deleção de projetos e/ou tarefas - 80%
 
