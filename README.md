@@ -28,7 +28,7 @@ git clone https://github.com/MatheusDev-1/Gerenciador-de-Projetos.git
 
 # Próximos commits
 
-* Atualizar código para que os componentes sejam renderizados assim que as requisições 
+* Atualizar código para que os componentes sejam renderizados assim que as requisições terminarem
 
 * Criar aplicativo simples no React Native para listar todos os projetos em uma FlatList e permitir também as ações de Criação, Edição e Deleção de projetos e/ou tarefas - 80%
 
