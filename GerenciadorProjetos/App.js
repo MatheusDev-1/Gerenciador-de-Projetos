@@ -21,10 +21,11 @@ export default function App() {
   const [projetos, setProjetos] = useState([])
   const [overlay, setOverlay] = useState(false)
   const [novaTarefa, setNovaTarefa] = useState("")
+  const IP = ""
 
   useEffect( () => {
     async function buscarProjetos(){
-      const dados = await axios.get("http://192.168.0.5:3333/projects")
+      const dados = await axios.get(`http://${IP}:3333/projects`)
       setProjetos(dados.data)
       console.log(projetos)
     }
@@ -42,7 +43,7 @@ export default function App() {
 
   function adicionarTarefa(){
     console.log(novaTarefa)
-    axios.post("http://192.168.0.5:3333/projects/", {"name": novaTarefa})
+    axios.post(`http://${IP}:3333/projects/`, {"name": novaTarefa})
     setOverlay(false)
   }
 
@@ -51,7 +52,7 @@ export default function App() {
 
     <ImageBackground source={Background} style={styles.safe}>
       <ScrollView>
-        <View style={styles.novo}>
+        <View style={styles.blocoTituloProjeto}>
           <Text style={styles.titulo}>Gerenciador de Projetos</Text>
         </View>
 
@@ -135,7 +136,7 @@ const styles = StyleSheet.create({
     color: "#8eb6de",
     fontSize: 17,
   },
-  novo: {
+  blocoTituloProjeto: {
     backgroundColor: 'rgba(250, 250, 250, 0.8)',
     width: 412,
     height: 80,
