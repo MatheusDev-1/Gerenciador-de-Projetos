@@ -7,7 +7,7 @@
     "dev": "nodemon ./api.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nodemon": "^2.0.2",
     "react-native-elements": "^1.2.7"
   }
